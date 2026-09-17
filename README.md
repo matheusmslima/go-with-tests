@@ -20,8 +20,8 @@ Each chapter lives in its own folder, mirroring the book's structure. Every fold
 
 - [x] Install Go
 - [x] Hello, world
-- [ ] Integers
-- [ ] Iteration
+- [x] Integers
+- [x] Iteration
 - [ ] Arrays and slices
 - [ ] Structs, methods & interfaces
 - [ ] Pointers & errors
