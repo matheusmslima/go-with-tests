@@ -1,6 +1,8 @@
 package iteration
 
-import "strings"
+import (
+	"strings"
+)
 
 func Repeat(character string, count int) string {
 	var repeated strings.Builder
@@ -8,4 +10,12 @@ func Repeat(character string, count int) string {
 		repeated.WriteString(character)
 	}
 	return repeated.String()
+}
+
+func CopyWordRepeat(word string, count int) string {
+	var repeatedWord string
+	for i := 0; i < count; i++ {
+		repeatedWord = strings.Clone(word)
+	}
+	return repeatedWord
 }
