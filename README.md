@@ -22,8 +22,8 @@ Each chapter lives in its own folder, mirroring the book's structure. Every fold
 - [x] Hello, world
 - [x] Integers
 - [x] Iteration
-- [ ] Arrays and slices
-- [ ] Structs, methods & interfaces
+- [x] Arrays and slices
+- [x] Structs, methods & interfaces
 - [ ] Pointers & errors
 - [ ] Maps
 - [ ] Dependency Injection
