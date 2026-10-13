@@ -32,7 +32,6 @@ func TestWallet(t *testing.T) {
 	})
 
 	t.Run("processing withdrawal", func(t *testing.T) {
-
 		balance := Bitcoin(20)
 		wallet := Wallet{balance}
 		err := ProcessWithdrawal(&wallet, "mslima-762", Bitcoin(100))
